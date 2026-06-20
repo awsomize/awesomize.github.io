@@ -41,7 +41,7 @@ function spawnText(text){
 }
 
 function getMessage(){
-    if (fails > 25) return "PROVE IF YOUR BIG ";
+    if (fails > 25) return "PROVE IF YOUR FASTER THAN ME";
     if (fails > 15) return "CMON COME HERE";
     return messages[Math.floor(Math.random() * messages.length)];
 }
